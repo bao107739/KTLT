@@ -19,10 +19,52 @@ public class Bai5_2 {
         System.out.println(c);
 
     }
+    public static void viDu3(){
+        int a = 0,b,c;
+        a++;
+        b = a;
+        c = ++a;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+    public static void viDu4(){
+        int a=0,b,c;
+        ++a;
+        b=++a;
+        c=a++;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+    public static void viDu5(){
+        int a=0,b,c;
+        ++a;
+        b=++a;
+        c=b++;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+    public static void viDu6(){
+        int a=0,b,c;
+        ++a;
+        b=a++;
+        c=b++;
+        c+=c;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+
+    }
 
     public static void main(String[] args) {
         viDu1();
         viDu2();
+        viDu3();
+        viDu4();
+        viDu5();
+        viDu6();
     }
 }
     
