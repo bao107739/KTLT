@@ -65,6 +65,8 @@ public class Bai5_2 {
         viDu4();
         viDu5();
         viDu6();
+        System.out.println("Hello w");
+        System.out.println("Hello w");
     }
 }
     
