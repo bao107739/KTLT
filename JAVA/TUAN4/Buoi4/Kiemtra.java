@@ -30,11 +30,13 @@ System.out.println(" IN ra phan tu cua mang mà KHONG DUNG FOR:");
 				for (int l=0; l<mangC[i][y].length;l++){
 					System.out.println("phan tu in ra la la: "+ mangC[i][y][l]);
 		}
+        
+	}
+	}
+	System.out.println(mangC[0].length);
 
-	}
-	}
 		}
-		
+
 		
 		
 		
