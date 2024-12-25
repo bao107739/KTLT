@@ -33,7 +33,7 @@ System.out.println(" IN ra phan tu cua mang mà KHONG DUNG FOR:");
         
 	}
 	}
-	System.out.println(mangC[0].length);
+	
 
 		}
 

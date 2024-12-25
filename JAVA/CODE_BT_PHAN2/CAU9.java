@@ -1,4 +1,4 @@
-package JAVA.CODE_BT_PHAN2;
+package CODE_BT_PHAN2;
 import java.util.Scanner;
 
 public class CAU9 {

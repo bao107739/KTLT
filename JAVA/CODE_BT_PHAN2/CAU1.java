@@ -1,4 +1,5 @@
-package JAVA.CODE_BT_PHAN2;
+                               //Bài 1. Viết chương trình giải phương trình bậc 2.
+package CODE_BT_PHAN2;
 import java.util.Scanner;
 
 public class CAU1 {
