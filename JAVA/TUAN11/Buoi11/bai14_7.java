@@ -1,4 +1,4 @@
-package JAVA.TUAN11.Buoi11;
+package TUAN11.Buoi11;
 import java.util.Scanner;
 
 public class bai14_7 {

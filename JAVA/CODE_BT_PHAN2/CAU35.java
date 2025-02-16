@@ -136,7 +136,7 @@ public class CAU35 {
     public static void sapXepTangDan(int a[][]){
         for(int i=0;i<a.length;i++){
              for(int j=0;j<a[i].length;j++){
-                for(int k=0;k<a[i].length;k++){
+                for(int k=0;k<a[i].length-1;k++){
                     if( a[k][j]>a[k+1][j]){
                         int tam=a[k][j];
                         a[k][j]= a[k+1][j];

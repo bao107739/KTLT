@@ -8,31 +8,36 @@ public class CAU4 {
     public static void soNguyenTo() {
         Scanner sc = new Scanner(System.in);
         int so;
-        System.out.println("nhap so n: ");
+
+        // Nhập số nguyên dương N
         do {
+            System.out.print(" moi ban nhan so nguyen duong : ");
             so = sc.nextInt();
             if (so > 0) {
-                System.out.println(" ban da nhap so duong");
+                System.out.println("Ban da nhap so duong.");
             } else {
-                System.out.println(" moi ban nhap lai so duong");
+                System.out.println("ban dang nhap so am vui long nhap lai.");
             }
         } while (so <= 0);
-        int snt;
-        snt = 1;
-        if (so == 1) {
-            snt = 0;
+
+     
+
+        boolean snt = true; // Giả sử ban đầu là số nguyên tố
+        if( so==0 || so==1){
+            snt= false;
         }
-        for (int i = 2; i < so; i++) {
+        for (int i = 2; i <= Math.sqrt(so); i++) {
             if (so % i == 0) {
-                snt = 0;
+                snt = false;
                 break;
             }
         }
-        if (snt == 1) {
-            System.out.println(" la so nguyen to.");
 
+        // In kết quả
+        if (snt) {
+            System.out.println(so + " là số nguyên tố.");
         } else {
-            System.out.println("Khong phai la so nguyen to.");
+            System.out.println(so + " không phải là số nguyên tố.");
         }
     }
 

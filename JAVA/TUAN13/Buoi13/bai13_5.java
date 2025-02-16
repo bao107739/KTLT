@@ -22,9 +22,9 @@ public class bai13_5 {
             
             // Nếu gặp khoảng trắng và trước đó có một từ, tăng số từ
             if (kyTuHienTai == ' ') {
-                if (dangTrongTu) {          
+                if (dangTrongTu) {              
                     soTu++;
-                    dangTrongTu = false; // Kết thúc từ
+                    dangTrongTu = false; // Kết thúc từ    
                 }
             } else {
                 dangTrongTu = true; // Đang ở trong một từ

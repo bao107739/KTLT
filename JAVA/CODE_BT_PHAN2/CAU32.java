@@ -33,7 +33,7 @@ public class CAU32 {
 
     public static void main(String[] args) {
         // Gọi hàm demSoTu và in kết quả ra màn hình
-        int soTu = demSoTu();
-        System.out.println("Số từ trong xâu là: " + soTu);
+       // int soTu = demSoTu();
+        System.out.println("Số từ trong xâu là: " + demSoTu());
     }
 }
